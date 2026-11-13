@@ -4,6 +4,14 @@ Production-grade, accountability-first laundry workflow system for Bennett Unive
 Bag-level tracking · 10-stage workflow · per-stage worker attribution · OTP-verified delivery ·
 audit trails · SLA + analytics · printable PDF bag labels.
 
+![Live bag board: every active bag, its current stage and the worker handling it](docs/media/live-board.png)
+
+| Admin dashboard | Order timeline with attribution |
+|---|---|
+| ![Dashboard with today's orders, exceptions and worker productivity](docs/media/admin-dashboard.png) | ![Each stage records which worker completed it and when](docs/media/order-timeline.png) |
+
+<sub>Screenshots use a demo database with fictional students and staff, populated through the real API.</sub>
+
 ## Three apps, one API
 | App | Folder | Stack | Users |
 |-----|--------|-------|-------|
